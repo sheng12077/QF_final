@@ -5,6 +5,8 @@
 3. 能自己過的就盡量不要抄
 4. 記得小改(下面會說怎麼改)
 
+[答案](https://github.com/sheng12077/QF_midtern/blob/main/ans.md)
+
 ***
 
 1. 改變數名字
