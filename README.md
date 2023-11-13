@@ -39,7 +39,7 @@ num1 = 10
 
 3. 改順序，我會改程式碼的順序當作第二組解(如果我能做出來)，你們只要改變數宣告的順序，我會標哪裡可以自由調順序，基本上不用input的都能亂調順序
 before
-```
+```py
 a=int(input())
 b=str(input())
 
@@ -53,7 +53,7 @@ for i in range(10):
 ```
 
 after
-```
+```py
 a=int(input())
 b=str(input())
 
