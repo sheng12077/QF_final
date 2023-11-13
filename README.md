@@ -6,6 +6,8 @@
 4. 記得改coding style(下面會說怎麼改)
 
 1. 改變數名字
+
+ 
 before:
 ```py
 num1=10
