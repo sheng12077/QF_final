@@ -22,7 +22,7 @@ for i in range(10):
     array.append(i)
 ```
 
-after:
+**after:
 ```py
 n=10
 a=3.3
@@ -34,19 +34,19 @@ for k in range(10):
 
 2. 改coding style(我=都不打空格，看你要不要打)
 
-before:
+**before:**
 ```py
 num1=10
 ```
 
-after:
+**after:**
 ```py
 num1 = 10
 ```
 
 3. 改順序，我會改程式碼的順序當作第二組解(如果我能做出來)，你們只要改變數宣告的順序，我會標哪裡可以自由調順序，基本上不用input的都能亂調順序
 
-before
+**before**
 ```py
 a=int(input())
 b=str(input())
@@ -60,7 +60,7 @@ for i in range(10):
     array.append(i)
 ```
 
-after
+**after**
 ```py
 a=int(input())
 b=str(input())
