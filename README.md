@@ -12,7 +12,7 @@
 1. 改變數名字
 
  
-** before: **
+**before:**
 ```py
 num1=10
 num2=3.3
@@ -33,6 +33,7 @@ for k in range(10):
 ```
 
 2. 改coding style(我=都不打空格，看你要不要打)
+
 before:
 ```py
 num1=10
