@@ -22,7 +22,7 @@ for i in range(10):
     array.append(i)
 ```
 
-**after:
+**after:**
 ```py
 n=10
 a=3.3
