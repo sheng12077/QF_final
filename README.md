@@ -12,7 +12,7 @@
 1. 改變數名字
 
  
-before:
+** before: **
 ```py
 num1=10
 num2=3.3
