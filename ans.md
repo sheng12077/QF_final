@@ -109,6 +109,25 @@ for i in range(1,len(lis)):
 
 # p4
 
+小複雜，等我寫比較簡單的，想走的可以先用沒關西
+```py
+data=input().split(",")
+al=[]
+di=[]
+ot=[]
+
+for i in data:
+    if (i.startswith('-') and i[1:] or i).isdigit():
+        di.append(i)
+    elif i.isalpha():
+        al.append(i)
+    else:
+        ot.append(i)
+print(di)
+print(al)
+print(ot)
+```
+
 ***
 
 # p5
