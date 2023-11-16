@@ -151,6 +151,31 @@ print(alphabet)
 print(other)
 ```
 
+```py
+number=[]
+alphabet=[]
+other=[]
+s=input().split(',')
+def isnumber(a):
+    if a.isdigit():
+        return True
+    else:
+        if a[0]=='-' and a[1:].isdigit():
+            return True
+    return False
+
+for i in range(len(s)):
+    if isnumber(s[i]):
+        number.append(s[i])
+    elif s[i].isalpha():
+        alphabet.append(s[i])
+    else:
+        other.append(s[i])
+print(number)
+print(alphabet)
+print(other)
+```
+
 
 ***
 
@@ -190,6 +215,8 @@ else:
     print("Fail")
 ```
 可讀性應該不錯，加油
+這我沒丟到oj上
+應該能過
 ```py
 pw=input()
 check_len=True
@@ -197,6 +224,7 @@ check_title=True
 check_digit=False
 check_upper=False
 check_lower=False
+check_odd=False
 for i in range(len(pw)):
     if pw[i].isupper():
         check_upper=True
@@ -204,6 +232,8 @@ for i in range(len(pw)):
         check_lower=True
     if pw[i].isdigit():
         check_digit=True
+    if (pw[i].isdigit() and pw[i].isalpha)==False:
+        check_odd=True
 if pw[0].isdigit():
     check_title=False
 if len(pw)>12 or len(pw)<6:
