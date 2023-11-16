@@ -5,6 +5,7 @@
 3. 能自己過的就盡量不要抄
 4. 記得小改(下面會說怎麼改)
 5. **各位加油 按F5刷新!!!!**
+6. **不要一次AC!!(可以故意錯再上傳AC程式碼)**
 
 [答案](https://github.com/sheng12077/QF_midtern/blob/main/ans.md)
 
