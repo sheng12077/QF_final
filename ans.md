@@ -176,6 +176,30 @@ print(alphabet)
 print(other)
 ```
 
+```py
+number=[]
+alphabet=[]
+other=[]
+s=input().split(',')
+def isnumber(a):
+    if a.isdigit():
+        return True
+    else:
+        if a[0]=='-' and a[1:].isdigit():
+            return True
+    return False
+
+for i in s:
+    if isnumber(i):
+        number.append(i)
+    elif i.isalpha():
+        alphabet.append(i)
+    else:
+        other.append(i)
+print(number)
+print(alphabet)
+print(other)
+```
 
 ***
 
