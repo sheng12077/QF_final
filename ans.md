@@ -131,6 +131,7 @@ print(ot)
 ***
 
 # p5
+等我==
 
 ```py
 pw=input()
