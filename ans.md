@@ -128,6 +128,31 @@ print(al)
 print(ot)
 ```
 
+```py
+s=input().split(',')
+number=[]
+alphabet=[]
+other=[]
+def isnumber(a):
+    if a.isdigit():
+        return True
+    else:
+        if a[0]=='-' and a[1:].isdigit():
+            return True
+    return False
+for i in range(len(s)):
+    if isnumber(s[i]):
+        number.append(s[i])
+    elif s[i].isalpha():
+        alphabet.append(s[i])
+    else:
+        other.append(s[i])
+print(number)
+print(alphabet)
+print(other)
+```
+
+
 ***
 
 # p5
