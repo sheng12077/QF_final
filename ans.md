@@ -190,6 +190,31 @@ if (upp and low and di and other and leng and title):
 else:
     print("Fail")
 ```
+可讀性應該不錯，加油
+```py
+pw=input()
+check_len=True
+check_title=True
+check_digit=False
+check_upper=False
+check_lower=False
+for i in range(len(pw)):
+    if pw[i].isupper():
+        check_upper=True
+    if pw[i].islower():
+        check_lower=True
+    if pw[i].isdigit():
+        check_digit=True
+if pw[0].isdigit():
+    check_title=False
+if len(pw)>12 or len(pw)<6:
+    check_len=False
+if (check_len and check_digit and check_lower and check_upper and check_title):
+    print("Success")
+else:
+    print("Fail")
+
+```
 
 ***
 
