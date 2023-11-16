@@ -68,7 +68,15 @@ print(ans)
 
 # p3
 我寫好了，測資有錯，等他改好==
+
+
 有其他方法，等我
+
+
+記得改變數名字，不然一堆lis
+
+
+建議改data array ...
 ```py
 lis=input().split(",")
 step=int(input())
@@ -82,7 +90,20 @@ for i in range(len(lis)-1):
         print(f"step{step}:{lis}")
 
 ```
-
+```py
+lis=input().split(",")
+step=int(input())
+for i in range(len(lis)):
+    lis[i]=int(lis[i])
+for i in range(1,len(lis)):
+    for j in range(len(lis)-i-1):
+        if lis[j]<lis[j+1]:
+            temp=lis[j+1]
+            lis[j+1]=lis[j]
+            lis[j]=temp
+    if (i==step):
+        print(f"step{i}:{lis}")
+```
 
 ***
 
