@@ -132,8 +132,38 @@ print(ot)
 
 # p5
 
+```py
+pw=input()
+upp=False
+low=False
+di=False
+other=False
+leng=False
+title=True
+def isodd(a):
+    s="~!@#$%^&*()_+-*/<>,.[]\/\'\"=><˙{ }"
+    for i in s:
+        if a==i:
+            return True
+    return False
+for i in pw:
+    if i.isupper():
+        upp=True
+    if i.islower():
+        low=True
+    if i.isdigit():
+        di=True
+    if isodd(i):
+        other=True
+if len(pw)>=6 and len(pw)<=12:
+    leng=True
+if pw[0].isdigit():
+    title=False
+if (upp and low and di and other and leng and title):
+    print("Success")
+else:
+    print("Fail")
+```
+
 ***
 
-# p6
-
-***
