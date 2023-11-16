@@ -6,6 +6,9 @@
 
 # p2
 
+ans可以改sum
+一堆ans 
+會被懷疑
 ```py
 a=int(input())
 b=int(input())
