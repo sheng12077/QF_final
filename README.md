@@ -8,6 +8,7 @@
 6. **不要一次AC!!(可以故意錯再上傳AC程式碼)**
 7. 等他查完我學生證會開始傳
 8. 流程圖我等等小畫家畫，但我都亂畫，參考就好
+9. 不畫了
 
 [答案](https://github.com/sheng12077/QF_midtern/blob/main/ans.md)
 
