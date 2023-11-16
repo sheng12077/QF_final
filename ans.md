@@ -238,11 +238,10 @@ if pw[0].isdigit():
     check_title=False
 if len(pw)>12 or len(pw)<6:
     check_len=False
-if (check_len and check_digit and check_lower and check_upper and check_title):
+if (check_len and check_digit and check_lower and check_upper and check_title and check_odd):
     print("Success")
 else:
     print("Fail")
-
 ```
 
 ***
