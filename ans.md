@@ -68,6 +68,21 @@ print(ans)
 
 # p3
 我寫好了，測資有錯，等他改好==
+有其他方法，等我
+```py
+lis=input().split(",")
+step=int(input())
+for i in range(len(lis)):
+    lis[i]=int(lis[i])
+for i in range(len(lis)-1):
+    for j in range(len(lis)-i-1):
+        if lis[j]<lis[j+1]:
+            lis[j],lis[j+1]=lis[j+1],lis[j]
+    if ((i+1)==step):
+        print(f"step{step}:{lis}")
+
+```
+
 
 ***
 
