@@ -5,6 +5,7 @@
 ***
 
 # p2
+
 ```py
 a=int(input())
 b=int(input())
@@ -23,6 +24,24 @@ for i in range(a+1,b):
 print(ans)
 ```
 
+
+```py
+a=int(input())
+b=int(input())
+c=int(input())
+ans=0
+while a>=b:
+    a=int(input())
+    b=int(input())
+    print("please input a and b again!")
+while c<=0:
+    c=int(input())
+    print("please input c again!")
+for i in range(a+1,b):
+    if i%c==0:
+        ans+=i
+print(ans)
+```
 
 ***
 
