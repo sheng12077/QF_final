@@ -6,9 +6,9 @@
 4. 記得小改(下面會說怎麼改)
 5. **各位加油 按F5刷新!!!!**
 6. **盡量不要一次AC(可以故意錯再上傳AC程式碼)**
+7. 我可能不會寫
 
-
-[答案](https://github.com/sheng12077/QF_midtern/blob/main/ans.md)
+[答案](https://github.com/sheng12077/QF_final/blob/main/ans.md)
 
 ***
 
