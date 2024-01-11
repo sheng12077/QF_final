@@ -52,12 +52,12 @@ P3
 ```py
 def f3(s):
     cnt={}
-    for char in s.lower():
-        if char.isalpha():
-            if char in cnt:
-                cnt[char]+=1
+    for c in s.lower():
+        if c.isalpha():
+            if c in cnt:
+                cnt[c]+=1
             else:
-                cnt[char]=1
+                cnt[c]=1
     return dict(sorted(cnt.items()))
 
 def test():  
