@@ -67,7 +67,22 @@ def test():
 if __name__=="__main__":
     test()
 ```
-P4貝卡測資== 
+P4
+```py
+s=input()
+def f(s):
+    if len(s) != 7 or not s.islower():
+        return "error"
+    ans=""
+    for i in range(1,7):
+        tmp=abs(ord(s[i])-ord(s[i-1]))
+        if tmp>=10:
+            tmp=tmp%10
+        ans+=str(tmp)
+    return ans
+print(f(s))
+
+```
 P5
 ```py
 def sn_check(sn):
