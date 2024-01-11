@@ -43,7 +43,7 @@ for i in isbn:
 
 for i in range(len(arr1)):
     ans+=arr1[i]
-if ans%11==0 
+if ans%11==0: 
     print("YES")
 else:
     print("NO")
