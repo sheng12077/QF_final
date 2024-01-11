@@ -48,4 +48,22 @@ if ans%11==0:
 else:
     print("NO")
 ```
+P3
+```py
+def f3(s):
+    cnt={}
+    for char in s.lower():
+        if char.isalpha():
+            if char in cnt:
+                cnt[char]+=1
+            else:
+                cnt[char]=1
+    return dict(sorted(cnt.items()))
 
+def test():  
+    s=input()  
+    print(f3(s))  
+
+if __name__=="__main__":
+    test()
+```
