@@ -68,3 +68,29 @@ if __name__=="__main__":
     test()
 ```
 P4貝卡測資== 
+P5
+```py
+def sn_check(sn):
+    st=sn.split("-")
+    arr=[7, 11, 13, 17, 23]
+    for i in range(len(st)):
+        if len(st[i])!= 5 or i>=len(arr):
+            return st[i]
+        sum=0
+        for char in st[i]:
+            sum+=ord(char)
+        if sum%arr[i] != 0:
+            return st[i]
+    return "valid"
+
+
+def test():
+    while True:
+        sn=input()
+        if sn=="":
+            break
+        print(sn_check(sn))
+
+if __name__ == '__main__':
+    test()
+```
